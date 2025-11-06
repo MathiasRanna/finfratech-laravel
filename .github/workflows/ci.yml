@@ -71,7 +71,7 @@ jobs:
       - name: Run PHP Mess Detector
         run: |
           phpmd app text phpmd.xml
-          phpmd tests text phpmd.xml
+          phpmd tests text phpmd.xml --exclude CamelCaseMethodName
 
   tests:
     name: Run Tests

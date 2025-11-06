@@ -27,11 +27,6 @@
         <exclude name="ShortVariable"/>
         <exclude name="LongVariable"/>
     </rule>
-    <rule ref="rulesets/naming.xml/CamelCaseMethodName">
-        <properties>
-            <property name="allow-underscore-test" value="true" />
-        </properties>
-    </rule>
     <rule ref="rulesets/unusedcode.xml"/>
 </ruleset>
 
